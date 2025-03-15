@@ -15,7 +15,7 @@ from sklearn.model_selection import KFold, cross_val_score
 from sklearn.preprocessing import StandardScaler
 import joblib
 
-df=pd.read_csv('/content/drive/MyDrive/diabetes.csv')
+df=pd.read_csv('diabetes.csv')
 df
 
 X=df.drop('class',axis=1)
